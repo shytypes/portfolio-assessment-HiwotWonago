@@ -144,3 +144,41 @@ li {
   font-size: 15px;
   margin: 0px 0px 0px 20px;
 }
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+legend {
+  padding: 0 5px;
+  font-weight: bold;
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: hsl(0, 0%, 95%);
+  box-sizing: border-box;
+}
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+button:hover {
+  background-color: #218838;
+}
+ 
